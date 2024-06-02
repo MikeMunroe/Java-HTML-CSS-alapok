@@ -1,0 +1,55 @@
+1 óra
+
+kiíratás:
+System.out.println(".....");
+System.out.println(10); a Java itt azt látja,hogy a 10 az int
+System.out.print("....\n");
+
+Literál: lrg kódba írt formázást érték.
+fajtái: -egész literál pl: 10, 50, 12,.........
+	-Valós literál pl: 5.72, -73.27, 0.12, ..........
+		5.7e-2 <- (nem nagyon használjuk ezt) Jelentése: 5,7 x  a másodikon.
+		
+karakter literál pl: 'k' "7", '+'
+Logikai literál: Két fajtája van igaz és a hamis. programkódban a true és a false. 
+Szöveges Literál: Figyelünk arra, hogy idézőjelek közé írjuk. "szöveg"
+
+Escape szekvencia pl: 
+\n
+\t -tabulátor
+\" ez jeletni szövegben az  "
+\' ez jelenti szövegben az '
+
+legkissebb a byte 8bit a memóriában.pl: -127-től 127
+Short 16bit -32000 és 32000 között lehet benne érték.
+int 32 
+long 64
+valósaknál csak kettő van
+kisebb a float 32 bit
+double a 64bit
+
+karakter literálnál a char
+logikainál a Boolean
+Szöveges literál kkivétel osztály a pára úgy oldja meg a Java definiálva van  neki a String
+
+Változó: 
+Névvel és típussal (meemóriában mennyi helyet kell foglalni.) elátott memóriahely, amelyben a tárolt érték .png futása alatt változnak.
+
+Változó eklarálása:
+[típus] [változó nevét];
+Pl: int letszam; => Deklarálva lett egy int (egész) típusú változó  amelynek a neve letszam.
+
+Változó iniciálizálása (inicalizálás = kezdőérték adás): 
+letszam = 15; 
+[változó neve] = [kezdő érték]
+
+Deklarálás és az inicializálás összevonható!!!
+intletszam = 15;
+
+
+Scanner konzol = new Scanner(System.in);
+int szam = konzol.nextint();
+double szam2 = konzol.nextDoule();
+String szoveg = konzol.nextline();
+
+
